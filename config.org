@@ -9,7 +9,6 @@
   (electric-pair-mode t) 
 #+END_SRC
 
-
 * Terminal
 ** setting default shell to bash
 #+BEGIN_SRC emacs-lisp
@@ -33,7 +32,6 @@
     :config
     (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
 #+END_SRC
-
 
 
 * I-do
@@ -86,6 +84,15 @@
 :ensure t
 :bind
 ("M-s" . avy-goto-char))
+#+END_SRC
+
+* convenient functions
+#+BEGIN_SRC emacs-lisp
+  (defun kill-whole-word()
+    (interactive)
+    (backward-word)
+    (kill-word 1))
+    (global-set-key (kbd "C-c w w") 'kill-whole-word)
 #+END_SRC
 
 * config edit/reload

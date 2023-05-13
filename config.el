@@ -41,6 +41,12 @@
 :bind
 ("M-s" . avy-goto-char))
 
+(defun kill-whole-word()
+  (interactive)
+  (backward-word)
+  (kill-word 1))
+  (global-set-key (kbd "C-c w w") 'kill-whole-word)
+
 (defun config-visit ()
   (interactive)
   (find-file "~/.emacs.d/config.org"))
