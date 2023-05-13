@@ -1,4 +1,10 @@
 * minor settings
+** show lines and columns 
+#+BEGIN_SRC emacs-lisp
+  (line-number-mode 1)
+  (column-number-mode 1)
+#+END_SRC
+
 ** electric
 #+BEGIN_SRC emacs-lisp
   (setq electric-pair-pairs '(
@@ -32,7 +38,6 @@
     :config
     (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
 #+END_SRC
-
 
 * I-do
 ** enable ido mode 
@@ -72,6 +77,15 @@
 #+END_SRC
 
 * buffers
+** always kill current buffer
+#+BEGIN_SRC emacs-lisp
+  (defun kill-curr-buffer()
+    (interactive)
+    ( kill-buffer (current-buffer))
+    )
+  (global-set-key (kbd "C-x k") 'kill-current-buffer)
+#+END_SRC
+
 ** enable ibuffer
 #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-x b") 'ibuffer)
@@ -87,6 +101,7 @@
 #+END_SRC
 
 * convenient functions
+** kill whole word
 #+BEGIN_SRC emacs-lisp
   (defun kill-whole-word()
     (interactive)
@@ -94,6 +109,19 @@
     (kill-word 1))
     (global-set-key (kbd "C-c w w") 'kill-whole-word)
 #+END_SRC
+** copy whole line 
+#+BEGIN_SRC emacs-lisp
+  (defun copy-whole-line()
+    (interactive)
+    (save-excursion
+    (kill-new
+     (buffer-substring
+      (point-at-bol)
+      (point-at-eol)))))
+  (global-set-key (kbd "C-c w l") 'copy-whole-line)
+
+#+END_SRC
+
 * sudo edit
 #+BEGIN_SRC emacs-lisp
   (defun kill-whole-word()

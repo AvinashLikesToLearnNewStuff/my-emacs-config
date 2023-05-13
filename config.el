@@ -1,3 +1,6 @@
+(line-number-mode 1)
+(column-number-mode 1)
+
 (setq electric-pair-pairs '(
 			    (?\( .?\))
 			    (?\[ .?\])
@@ -34,6 +37,12 @@
   :bind
   ("M-x" . smex))
 
+(defun kill-curr-buffer()
+  (interactive)
+  ( kill-buffer (current-buffer))
+  )
+(global-set-key (kbd "C-x k") 'kill-current-buffer)
+
 (global-set-key (kbd "C-x b") 'ibuffer)
 
 (use-package avy
@@ -46,6 +55,15 @@
   (backward-word)
   (kill-word 1))
   (global-set-key (kbd "C-c w w") 'kill-whole-word)
+
+(defun copy-whole-line()
+  (interactive)
+  (save-excursion
+  (kill-new
+   (buffer-substring
+    (point-at-bol)
+    (point-at-eol)))))
+(global-set-key (kbd "C-c w l") 'copy-whole-line)
 
 (defun kill-whole-word()
   (interactive)
