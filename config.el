@@ -43,6 +43,12 @@
   )
 (global-set-key (kbd "C-x k") 'kill-current-buffer)
 
+(defun kill-all-buffers()
+(interactive)
+(mapc 'kill-buffer (buffer-list)))
+
+(global-set-key (kbd "C-M-s-k") 'kill-all-buffers)
+
 (global-set-key (kbd "C-x b") 'ibuffer)
 
 (use-package avy

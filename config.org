@@ -86,6 +86,17 @@
   (global-set-key (kbd "C-x k") 'kill-current-buffer)
 #+END_SRC
 
+** kill all buffers
+#+BEGIN_SRC emacs-lisp
+  (defun kill-all-buffers()
+  (interactive)
+  (mapc 'kill-buffer (buffer-list)))
+
+  (global-set-key (kbd "C-M-s-k") 'kill-all-buffers)
+
+#+END_SRC
+
+
 ** enable ibuffer
 #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-x b") 'ibuffer)
