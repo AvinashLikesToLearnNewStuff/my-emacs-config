@@ -140,3 +140,19 @@
   :ensure t
   :init
   (add-hook 'after-init-hook 'global-company-mode))
+
+(use-package spaceline
+  :ensure t
+  :config
+  (require 'spaceline-config)
+  (setq powerline-default-separator (quote arrow))
+  (spaceline-spacemacs-theme))
+
+(use-package diminish
+  :ensure t 
+:init 
+(diminish 'beacon-mode)
+(diminish 'which-key-mode)
+(diminish 'subword-mode)
+(diminish 'rainbow-mode)
+)
