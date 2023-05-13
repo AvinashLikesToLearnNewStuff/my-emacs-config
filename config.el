@@ -1,7 +1,16 @@
+(setq electric-pair-pairs '(
+			    (?\( .?\))
+			    (?\[ .?\])
+			    ))
+
+(electric-pair-mode t)
+
 (defvar my-term-shell "/bin/bash")
 (defadvice ansi-term (before force-bash)
   (interactive (list my-term-shell)))
 (ad-activate 'ansi-term)
+
+(setq org-src-window-setup 'current-window)
 
 (use-package org-bullets
   :ensure t

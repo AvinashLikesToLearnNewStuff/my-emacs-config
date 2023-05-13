@@ -1,3 +1,15 @@
+* minor settings
+** electric
+#+BEGIN_SRC emacs-lisp
+  (setq electric-pair-pairs '(
+			      (?\( .?\))
+			      (?\[ .?\])
+			      ))
+
+  (electric-pair-mode t) 
+#+END_SRC
+
+
 * Terminal
 ** setting default shell to bash
 #+BEGIN_SRC emacs-lisp
@@ -8,6 +20,12 @@
 #+END_SRC
 
 * org
+** basic config
+#+BEGIN_SRC emacs-lisp
+  (setq org-src-window-setup 'current-window) 
+#+END_SRC
+
+
 ** org-bullets
 #+BEGIN_SRC emacs-lisp
   (use-package org-bullets
@@ -15,6 +33,8 @@
     :config
     (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
 #+END_SRC
+
+
 
 * I-do
 ** enable ido mode 
