@@ -8,12 +8,17 @@
 
 (electric-pair-mode t)
 
+(setq display-time-24hr-format t)
+(display-time-mode 1)
+
 (defvar my-term-shell "/bin/bash")
 (defadvice ansi-term (before force-bash)
   (interactive (list my-term-shell)))
 (ad-activate 'ansi-term)
 
-(setq org-src-window-setup 'current-window)
+(setq org-src-window-setup 'current-window) 
+(add-to-list 'org-structure-template-alist
+	     '("el" "#+BEGIN_SRC emacs-lisp\n?\n#+END_SRC"))
 
 (use-package org-bullets
   :ensure t
@@ -70,6 +75,13 @@
     (point-at-bol)
     (point-at-eol)))))
 (global-set-key (kbd "C-c w l") 'copy-whole-line)
+
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook)
+  (setq dashboard-items '((recents . 10)))
+  (setq dashboard-banner-logo-title "Hii!"))
 
 (defun kill-whole-word()
   (interactive)
