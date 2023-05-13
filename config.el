@@ -24,3 +24,5 @@
   :init (smex-initialize)
   :bind
   ("M-x" . smex))
+
+(global-set-key (kbd "C-x b") 'ibuffer)
