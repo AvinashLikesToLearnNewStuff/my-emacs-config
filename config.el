@@ -11,6 +11,18 @@
 (setq display-time-24hr-format t)
 (display-time-mode 1)
 
+(use-package exwm
+:ensure t
+  :config
+  (require 'exwm-config)
+(exwm-config-default))
+
+(require 'exwm-systemtray)
+(exwm-systemtray-enable)
+
+(global-set-key (kbd "s-k") 'exwm-workspace-delete)
+(global-set-key (kbd "s-w") 'exwm-workspace-swap)
+
 (defvar my-term-shell "/bin/bash")
 (defadvice ansi-term (before force-bash)
   (interactive (list my-term-shell)))
