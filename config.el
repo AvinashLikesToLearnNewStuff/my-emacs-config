@@ -93,6 +93,11 @@
 :ensure t
 :init (rainbow-mode 1))
 
+(use-package rainbow-delimiters
+  :ensure t
+  :init
+  (rainbow-delimiters-mode 1))
+
 (use-package switch-window
 :ensure t
 :config

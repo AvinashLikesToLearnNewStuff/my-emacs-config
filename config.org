@@ -168,6 +168,13 @@
 :init (rainbow-mode 1))
 #+END_SRC
 
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-delimiters
+    :ensure t
+    :init
+    (rainbow-delimiters-mode 1))
+#+END_SRC
+
 * switch window 
 #+BEGIN_SRC emacs-lisp
 (use-package switch-window
