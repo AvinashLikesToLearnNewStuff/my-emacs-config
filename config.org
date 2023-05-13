@@ -208,6 +208,8 @@
 ([remap other-window] . switch-window))
 #+END_SRC
 
+* autocompletion
+ 
 * window splitting function
 #+BEGIN_SRC emacs-lisp
   (defun split-and-follow-horizontally()
@@ -227,4 +229,13 @@
 #+END_SRC
 
 
+* autocomplete
+#+BEGIN_SRC emacs-lisp 
+    (use-package company
+      :ensure t
+      :init
+      (add-hook 'after-init-hook 'global-company-mode))
 
+#+END_SRC
+ 
+ 

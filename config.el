@@ -135,3 +135,8 @@
   (balance-windows)
   (other-window 1))
   (global-set-key (kbd "C-x 3") 'split-and-follow-vertically)
+
+(use-package company
+  :ensure t
+  :init
+  (add-hook 'after-init-hook 'global-company-mode))
