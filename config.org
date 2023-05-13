@@ -94,6 +94,14 @@
     (kill-word 1))
     (global-set-key (kbd "C-c w w") 'kill-whole-word)
 #+END_SRC
+* sudo edit
+#+BEGIN_SRC emacs-lisp
+  (defun kill-whole-word()
+    (interactive)
+    (backward-word)
+    (kill-word 1))
+    (global-set-key (kbd "C-c w w") 'kill-whole-word)
+#+END_SRC
 
 * config edit/reload
 ** edit
