@@ -264,4 +264,10 @@
 
 
 
- 
+* symon
+#+BEGIN_SRC emacs-lisp 
+  (use-package symon
+    :ensure t
+    :bind
+    ("s-h" . symon-mode))
+#+END_SRC

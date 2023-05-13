@@ -156,3 +156,8 @@
 (diminish 'subword-mode)
 (diminish 'rainbow-mode)
 )
+
+(use-package symon
+  :ensure t
+  :bind
+  ("s-h" . symon-mode))
