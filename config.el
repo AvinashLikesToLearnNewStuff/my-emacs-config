@@ -160,6 +160,12 @@
   (setq powerline-default-separator (quote arrow))
   (spaceline-spacemacs-theme))
 
+(use-package dmenu
+  :ensure t
+  :bind
+  ("s-SPC" . 'dmenu)
+  )
+
 (use-package diminish
   :ensure t 
 :init 

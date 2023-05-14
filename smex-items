@@ -1,16 +1,16 @@
 
 ;; ----- smex-history -----
 (
+ term-paste
  cd
  5x5
  arp
  dbx
  dig
  erc
- ert
 )
 
 ;; ----- smex-data -----
 (
- 
+ (term-paste . 2)
 )

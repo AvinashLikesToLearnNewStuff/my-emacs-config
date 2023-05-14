@@ -30,7 +30,7 @@
     (require 'exwm-config)
   (exwm-config-default))
 #+END_SRC
-#+BEGIN_SRC emacs-lisp 
+#+BEGIN_SRC emacs-lisp
   (require 'exwm-systemtray)
   (exwm-systemtray-enable)
 #+END_SRC
@@ -267,6 +267,15 @@
     (spaceline-spacemacs-theme))
 #+END_SRC
 
+* dmenu
+#+BEGIN_SRC emacs-lisp 
+  (use-package dmenu
+    :ensure t
+    :bind
+    ("s-SPC" . 'dmenu)
+    )
+#+END_SRC
+  
 * diminish
 #+BEGIN_SRC emacs-lisp 
   (use-package diminish
