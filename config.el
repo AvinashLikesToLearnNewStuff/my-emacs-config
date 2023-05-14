@@ -163,8 +163,7 @@
 (use-package dmenu
   :ensure t
   :bind
-  ("s-SPC" . 'dmenu)
-  )
+  ("s-SPC" . 'dmenu))
 
 (use-package diminish
   :ensure t 
@@ -179,3 +178,12 @@
   :ensure t
   :bind
   ("s-h" . symon-mode))
+
+(use-package popup-kill-ring
+  :ensure t
+  :bind ("M-y" . popup-kill-ring))
+
+(use-package swiper
+  :ensure t
+  :bind
+  ("C-s" . swiper))
