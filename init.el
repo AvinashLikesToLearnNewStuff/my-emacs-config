@@ -56,7 +56,7 @@
    '("7fd8b914e340283c189980cd1883dbdef67080ad1a3a9cc3df864ca53bdc89cf" default))
  '(ispell-dictionary nil)
  '(package-selected-packages
-   '(swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode)))
+   '(org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

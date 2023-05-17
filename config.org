@@ -21,6 +21,10 @@
   (setq display-time-24hr-format t)
   (display-time-mode 1)
 #+END_SRC
+** set visible bell
+#+BEGIN_SRC emacs-lip 
+(set visible-bell t)
+#+END_SRC
 
 * exwm
 #+BEGIN_SRC emacs-lisp 
@@ -316,4 +320,28 @@
     :ensure t
     :bind
     ("C-s" . swiper))
+#+END_SRC
+
+
+* evil (from system crafters)
+#+BEGIN_SRC emacs-lisp
+
+
+
+#+END_SRC
+* initialise packages
+#+BEGIN_SRC emacs-lisp
+  ;; Initialize package sources
+  (require 'package)
+
+  (setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			   ("melpa-stable" . "https://stable.melpa.org/packages/")
+			   ("org" . "https://orgmode.org/elpa/")
+			   ("elpa" . "https://elpa.gnu.org/packages/")))
+
+(unless (package-installed-p 'use-package)
+(package-install 'use-package))
+
+(require 'use-package)
+(setq use-package-always-ensure t)
 #+END_SRC

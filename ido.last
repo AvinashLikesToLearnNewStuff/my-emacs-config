@@ -1,0 +1,30 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/avinash/" . "Pictures/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/avinash/Desktop/" (25700 45871 760086 553000) ".#JavaScript-Note.org" "JavaScript-Note.html~" "../" "JavaScript-Note.html" "JavaScript-Note.org" ".directory" "data/" "#JavaScript-Note.org#" "JavaScript-Note.org~" "./")
+
+ ("/home/avinash/Pictures/" (25698 3086 787498 713000) "Screenshots/" "imaginer-waifu-with-long-hair-06-May-2023-13-29-23-stable-diffusion.png" "saber.jpeg" "../" "Fate Stay Night Saber Arturia Pendragon Series Fresh New Wallpaper.jpg" "desktop-1920x1080.jpg" "imaginer-waifu-with-long-hair-06-May-2023-13-29-16-waifu-diffusion.png" "imaginer-waifu-with-long-hair-06-May-2023-13-30-27-waifu-diffusion.png" "./")
+
+ ("/home/avinash/Downloads/" (25700 27357 763508 194000) "FiraCode.zip" "FiraMono/" "Mindset Changing the Way You Think to Fulfil Your Potential.epub" "../" "developer.chrome.com_docs_devtools_css_.png" "How Not To Say What You Mean A Dictionary of Euphemisms.pdf" "FiraMono.zip" "Landing-Page-For-The-Odin-Project-main.zip" "./")
+
+ ("/home/avinash/" (25700 26418 112094 979000) ".opencity/" ".lesshst" ".dotnet/" ".texlive2021/" "Music/" ".emacs.d/" "ThoughtsDatabaseKeyFile" "repos/" ".kde/" ".profile" ".fonts.conf" ".zcompdump" ".var/" "Calibre Library/" "learninggnuemacs_3rdedition.epub" "Documents/" ".pki/" "\"" ".fonts/" "Public/" ".Xauthority" ".bash_history" "../" ".gconf/" ".sudo_as_admin_successful" ".config/" ".cargo/" "snap/" ".rest-client/" ".xsession-errors" ".rustup/" ".gnupg/" "Templates/" ".gnome/" ".zshenv" ".java/" ".android/" "Downloads/" "Boiling.Point.2021.720p.WEBRip.800MB.x264-GalaxyRG[TGx]/" ".wget-hsts" ".cache/" "Desktop/" ".face" ".gtkrc-2.0" "Videos/" ".vscode-cli/" "Thoughts.kdbx" ".lyx/" ".ssh/" "Pictures/" ".bashrc" ".gitconfig" "Android/" ".local/" ".face.icon" ".vscode/" ".bash_logout" ".ICEauthority" "./" ".dbus/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

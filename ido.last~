@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/avinash/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/avinash/" (25697 55266 441103 894000) ".opencity/" ".lesshst" ".dotnet/" ".texlive2021/" "Music/" ".emacs.d/" "repos/" ".kde/" ".profile" ".fonts.conf" ".zcompdump" ".var/" "Documents/" ".pki/" "\"" ".fonts/" "Public/" ".Xauthority" ".bash_history" "../" ".gconf/" ".sudo_as_admin_successful" ".config/" ".cargo/" "snap/" ".rest-client/" ".xsession-errors" ".rustup/" ".gnupg/" "Templates/" ".gnome/" ".zshenv" ".java/" ".android/" "Downloads/" "Boiling.Point.2021.720p.WEBRip.800MB.x264-GalaxyRG[TGx]/" ".wget-hsts" ".cache/" "Desktop/" ".face" ".gtkrc-2.0" "Videos/" ".vscode-cli/" ".lyx/" ".ssh/" "Pictures/" ".bashrc" ".gitconfig" "Android/" ".local/" ".face.icon" ".vscode/" ".bash_logout" ".ICEauthority" "./")
+
+ ("/home/avinash/Desktop/" (25694 23910 934050 933000) "../" ".directory" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

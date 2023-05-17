@@ -1,16 +1,48 @@
 
 ;; ----- smex-history -----
 (
- term-paste
- cd
- 5x5
- arp
- dbx
- dig
- erc
+ org-export-dispatch
+ org-attach
+ evil-paste-from-register
+ org-paste-special
+ java-mode
+ html-mode
+ html-div
 )
 
 ;; ----- smex-data -----
 (
  (term-paste . 2)
+ (exwm-floating-toggle-floating . 1)
+ (exwm-exit . 2)
+ (vc-log-outgoing . 1)
+ (switch-to-buffer . 9)
+ (find-file . 2)
+ (dmenu . 2)
+ (list-packages . 5)
+ (evil-mode . 2)
+ (define-abbrevs . 1)
+ (define-global-abbrev . 1)
+ (eval-buffer . 6)
+ (expand-abbrev . 1)
+ (edit-abbrevs . 1)
+ (org-insert-subheading . 1)
+ (org-paste-special . 2)
+ (org-paste-subtree . 1)
+ (evil-paste-from-register . 2)
+ (org-attach . 2)
+ (abbrev-mode . 4)
+ (dabbrev-expand . 2)
+ (normal-mode . 1)
+ (eval-last-sexp . 1)
+ (eval-expression . 3)
+ (ispell-buffer . 1)
+ (flyspell-mode . 1)
+ (picture-mode . 3)
+ (org-mode . 1)
+ (artist-mode . 1)
+ (html-div . 1)
+ (html-mode . 1)
+ (java-mode . 1)
+ (org-export-dispatch . 1)
 )
