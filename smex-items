@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ kill-emacs
  ivy-rich-mode
  org-export-dispatch
  org-attach
  org-paste-special
  java-mode
  html-mode
- switch-to-buffer
 )
 
 ;; ----- smex-data -----
@@ -46,4 +46,5 @@
  (java-mode . 1)
  (org-export-dispatch . 1)
  (ivy-rich-mode . 1)
+ (kill-emacs . 1)
 )

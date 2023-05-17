@@ -269,7 +269,7 @@
   :bind (("M-x" . counsel-M-x)
          ("C-x b" . counsel-ibuffer)
          ("C-x C-f" . counsel-find-file)
-         ;; ("C-M-j" . counsel-switch-buffer)
+          ("C-M-j" . counsel-switch-buffer)
          ("C-M-l" . counsel-imenu)
          :map minibuffer-local-map
          ("C-r" . 'counsel-minibuffer-history))
@@ -291,10 +291,21 @@
   ([remap describe-command] . helpful-command)
   ([remap describe-key] . helpful-key))
 
-(dw/leader-key-def
-  "e"   '(:ignore t :which-key "eval")
-  "eb"  '(eval-buffer :which-key "eval buffer"))
+;;(dw/leader-key-def
+;;  "e"   '(:ignore t :which-key "eval")
+ ;; "eb"  '(eval-buffer :which-key "eval buffer"
+;;(dw/leader-key-def
+;;  :keymaps '(visual)
+;;  "er" '(eval-region :which-key "eval region"))
 
-(dw/leader-key-def
-  :keymaps '(visual)
-  "er" '(eval-region :which-key "eval region"))
+(use-package general
+  :config
+  (general-evil-setup t)
+
+  (general-create-definer dw/leader-key-def
+    :keymaps '(normal insert visual emacs)
+    :prefix "SPC"
+    :global-prefix "C-SPC")
+
+  (general-create-definer dw/ctrl-c-keys
+    :prefix "C-c"))

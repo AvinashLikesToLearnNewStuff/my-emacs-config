@@ -17,6 +17,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/avinash/.emacs.d/" (25701 4746 446827 666000) "session.10b8d37ffa940703f7168430118544148400000016250089" "auto-save-list/" "config.org" "config.el" "../" "recentf" "config.org~" "ido.last~" "abbrev_defs" "smex-items" "elpa/" ".git/" "recentf~" "init.el~" "session.10c2e9d16e000168399334100000018940024" "dmenu-items" ".org-id-locations" "ido.last" "init.el" "./")
+
  ("/home/avinash/Desktop/" (25700 45871 760086 553000) ".#JavaScript-Note.org" "JavaScript-Note.html~" "../" "JavaScript-Note.html" "JavaScript-Note.org" ".directory" "data/" "#JavaScript-Note.org#" "JavaScript-Note.org~" "./")
 
  ("/home/avinash/Pictures/" (25698 3086 787498 713000) "Screenshots/" "imaginer-waifu-with-long-hair-06-May-2023-13-29-23-stable-diffusion.png" "saber.jpeg" "../" "Fate Stay Night Saber Arturia Pendragon Series Fresh New Wallpaper.jpg" "desktop-1920x1080.jpg" "imaginer-waifu-with-long-hair-06-May-2023-13-29-16-waifu-diffusion.png" "imaginer-waifu-with-long-hair-06-May-2023-13-30-27-waifu-diffusion.png" "./")
