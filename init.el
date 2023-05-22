@@ -79,11 +79,25 @@
  '(org-fontify-done-headline nil)
  '(org-fontify-todo-headline nil)
  '(package-selected-packages
-   '(exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
- '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e")))
+   '(all-the-icons-ibuffer all-the-icons-dired all-the-icons catwoe-theme exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
+ '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e"))
+ '(rustic-ansi-faces
+   (vector
+    (catppuccin-get-color 'surface1)
+    (catppuccin-get-color 'red)
+    (catppuccin-get-color 'green)
+    (catppuccin-get-color 'yellow)
+    (catppuccin-get-color 'blue)
+    (catppuccin-get-color 'pink)
+    (catppuccin-get-color 'teal)
+    (catppuccin-get-color 'subtext1))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "GOOG" :family "FiraCode Nerd Font")))))
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "GOOG" :family "FiraCode Nerd Font"))))
+ '(font-lock-comment-face ((t (:foreground "#5E5E5E"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-comment-face))))
+ '(line-number ((t (:foreground "#5E5E5E"))))
+ '(line-number-current-line ((t (:foreground "#D4D4D4" :weight bold)))))
