@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- kill-emacs
- ivy-rich-mode
+ try
+ package-install
+ counsel-load-theme
+ customize-themes
  org-export-dispatch
- org-attach
- org-paste-special
- java-mode
- html-mode
+ ox-haunt-export-to-html
+ ox-haunt-export-as-html
 )
 
 ;; ----- smex-data -----
@@ -19,8 +19,8 @@
  (switch-to-buffer . 9)
  (find-file . 2)
  (dmenu . 2)
- (list-packages . 5)
- (evil-mode . 2)
+ (list-packages . 8)
+ (evil-mode . 9)
  (define-abbrevs . 1)
  (define-global-abbrev . 1)
  (eval-buffer . 6)
@@ -33,18 +33,57 @@
  (org-attach . 2)
  (abbrev-mode . 4)
  (dabbrev-expand . 2)
- (normal-mode . 1)
+ (normal-mode . 4)
  (eval-last-sexp . 1)
  (eval-expression . 3)
  (ispell-buffer . 1)
  (flyspell-mode . 1)
  (picture-mode . 3)
- (org-mode . 1)
+ (org-mode . 2)
  (artist-mode . 1)
  (html-div . 1)
  (html-mode . 1)
  (java-mode . 1)
- (org-export-dispatch . 1)
+ (org-export-dispatch . 10)
  (ivy-rich-mode . 1)
  (kill-emacs . 1)
+ (evil-normal-state . 3)
+ (check-parens . 3)
+ (tab-new . 3)
+ (counsel-load-theme . 3)
+ (symon-mode . 1)
+ (yank . 4)
+ (shell . 1)
+ (org-timer . 1)
+ (dired . 2)
+ (recover-this-file . 2)
+ (recover-file . 1)
+ (edmacro-mode . 1)
+ (eww . 2)
+ (kill-buffer . 1)
+ (org-copy . 1)
+ (toggle-truncate-lines . 3)
+ (make-face-italic . 1)
+ (table-insert-column . 1)
+ (org-table-convert-region . 1)
+ (tab-rename . 3)
+ (tab-bar-select-tab-by-name . 4)
+ (html-list-item . 1)
+ (org-toggle-checkbox . 3)
+ (tab-switcher . 2)
+ (vc-svn-log-view-mode . 4)
+ (org-toggle-inline-images . 16)
+ (org-store-link . 4)
+ (org-capture . 1)
+ (org-tree-to-indirect-buffer . 1)
+ (org-show-children . 2)
+ (org-refile . 1)
+ (org-open-at-point . 1)
+ (org-insert-drawer . 1)
+ (org-insert-link . 1)
+ (ox-haunt-export-as-html . 1)
+ (ox-haunt-export-to-html . 1)
+ (customize-themes . 1)
+ (package-install . 1)
+ (try . 1)
 )

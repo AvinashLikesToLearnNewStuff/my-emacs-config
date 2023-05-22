@@ -1,0 +1,22 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".hulu.com"
+  [url-cookie "ak_bmsc" "1C91ACA82140406CDC5D0947C974BA74~000000000000000000000000000000~YAAQHvQwF2KVPweIAQAADL5FLRMLXc0Zr2+4jtxZ48o5UYOfrykYDn7Wmeeg9CZvClVSawLqHJTZGCcL9jAz+3sy5GLtUeqWTwX+vMURcTnOzbdIfmrnMJEVAPlUNu07YxGLB9ox1pRDxl+lGCNYWTyXfsI/cVN3yr/BD1ZyNQoUPYoC02ME+lvzWk7xMr3/EfzUzSP/r+DYAXtuuWgpFXCkmhg2BpWt0FehQ90/eyAywiFiOCIr2VEugb/yzQgmctgaRUqAr3S3vc1RG6fVGd9l/kbBY6No/tlzC57Ts6o7sU71wpwdb/ZCUzzEwSIorGU71ZoWHh0XE9KBaPZF9tG2rLoJXNKR7XiV2anaSBLecw5LrlHnqU5KS3YQmWfQGzit1KhTVwCluPk0blELAkMyxV18ALC71E5e" "Thu May 18 07:11:58 2023 GMT" "/" ".hulu.com" nil])
+ (".google.com"
+  [url-cookie "NID" "511=Mu9oXFBdTd8hURSnCjGTvyS5zs71HHCJ8meQEdVrFU9uEa-GQ4_SC2n-mxY52bd57xGneUQCflWSxwCgjxgdTp4S2Og5nHDHMrpYS2LzSoZKa7TpwMU7RtS5Gfniwio0S__7ZD6uiwJHR1CHvSio5aw0QqmH7HKuLmW06fkBUw0" "Fri, 17-Nov-2023 05:11:18 GMT" "/" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".hulu.com"
+  [url-cookie "_hulu_at" "eyJhbGciOiJSUzI1NiJ9.eyJhc3NpZ25tZW50cyI6ImV5SjJNU0k2VzExOSIsInJlZnJlc2hfaW50ZXJ2YWwiOjg2NDAwMDAwLCJ0b2tlbl9pZCI6ImY5OGNmYjA2LTQ5NzItNGM0OS1hODhhLTJlMDVhMzJjNDMyMyIsImFub255bW91c19pZCI6IjI0YjIxNGVhLWNhMWUtNGUwNS1iYTJhLTlkZGQzYjU5NzAzYSIsImlzc3VlZF9hdCI6MTY4NDM4NjcyMDU5OCwidHRsIjozMTUzNjAwMDAwMCwiZGV2aWNlX3VwcGVyIjoxfQ.zBoadWjRQHlrfePtCgxFWscmkGenN-VrSdf6rzCLKFNcHrkweKWM8WL4DqH3kZeyjtRuNqo1WS4THGM7865DP2PnK55cElFszUhZaxk_lG6FfD7LWRAlM7fbTGbAXMi-sPmCmtesr5ruG_ijAjfB6uI86dKW_r7U86tUttmXrEzcnRnCR3HCpE9cZYt82s7ng-UISQ9rhGZDVtVzRyzxrOpMX4NwyaHD06ULAoSgoS6IBOn5MYhA4i0hDM_D35DrGEgYSja5NKyKl9_WePnM0btKAZnP0afBVQHcc_RulTRVJTGBk8dNiKnD2D5fsSubnLzuaaRHKntIxTZQE4OAYQ" "Fri May 17 05:12:00 2024 GMT" "/" ".hulu.com" t]
+  [url-cookie "_hulu_assignments" "eyJ2MSI6W119" "Fri May 17 05:12:00 2024 GMT" "/" ".hulu.com" t])
+ (".google.com"
+  [url-cookie "1P_JAR" "2023-05-18-05" "Sat, 17-Jun-2023 05:11:45 GMT" "/" ".google.com" t]
+  [url-cookie "AEC" "AUEFqZf_v5Yf2YNYCuGwepQMhcc0n9lN1JzwGqnfkbVvRbSokdC-aQjWWF4" "Tue, 14-Nov-2023 05:11:45 GMT" "/" ".google.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

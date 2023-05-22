@@ -1,0 +1,2 @@
+;;; Generated package description from ox-haunt-0.2/ox-haunt.el  -*- no-byte-compile: t -*-
+(define-package "ox-haunt" "0.2" "Haunt-flavored HTML backend for the Org export engine" '((emacs "24.3") (org "9.0")) :commit "f3c8fda6fee78f45a259e5d218a519dfd11c00c7" :authors '(("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org")) :maintainers '(("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org")) :maintainer '("Jakob L. Kreuze" . "zerodaysfordays@sdf.lonestar.org") :keywords '("convenience" "hypermedia" "wp") :url "https://git.sr.ht/~jakob/ox-haunt")
