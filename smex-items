@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ kill-emacs
+ global-corfu-mode
+ corfu-mode
  try
- package-install
- counsel-load-theme
- customize-themes
- org-export-dispatch
- ox-haunt-export-to-html
- ox-haunt-export-as-html
+ package-refresh-contents
+ find-file
+ global-subword-mode
 )
 
 ;; ----- smex-data -----
@@ -17,13 +17,13 @@
  (exwm-exit . 2)
  (vc-log-outgoing . 1)
  (switch-to-buffer . 9)
- (find-file . 2)
+ (find-file . 5)
  (dmenu . 2)
  (list-packages . 8)
- (evil-mode . 9)
+ (evil-mode . 10)
  (define-abbrevs . 1)
  (define-global-abbrev . 1)
- (eval-buffer . 6)
+ (eval-buffer . 7)
  (expand-abbrev . 1)
  (edit-abbrevs . 1)
  (org-insert-subheading . 1)
@@ -46,23 +46,23 @@
  (java-mode . 1)
  (org-export-dispatch . 10)
  (ivy-rich-mode . 1)
- (kill-emacs . 1)
+ (kill-emacs . 13)
  (evil-normal-state . 3)
  (check-parens . 3)
  (tab-new . 3)
- (counsel-load-theme . 3)
+ (counsel-load-theme . 6)
  (symon-mode . 1)
  (yank . 4)
  (shell . 1)
  (org-timer . 1)
- (dired . 2)
+ (dired . 3)
  (recover-this-file . 2)
  (recover-file . 1)
  (edmacro-mode . 1)
  (eww . 2)
  (kill-buffer . 1)
  (org-copy . 1)
- (toggle-truncate-lines . 3)
+ (toggle-truncate-lines . 4)
  (make-face-italic . 1)
  (table-insert-column . 1)
  (org-table-convert-region . 1)
@@ -83,7 +83,17 @@
  (org-insert-link . 1)
  (ox-haunt-export-as-html . 1)
  (ox-haunt-export-to-html . 1)
- (customize-themes . 1)
+ (customize-themes . 2)
  (package-install . 1)
- (try . 1)
+ (try . 10)
+ (load-theme . 1)
+ (customize-create-theme . 1)
+ (projectile-run-vterm . 1)
+ (enable-theme . 1)
+ (dashboard-mode . 1)
+ (dashboard-open . 1)
+ (global-subword-mode . 4)
+ (package-refresh-contents . 1)
+ (corfu-mode . 1)
+ (global-corfu-mode . 2)
 )

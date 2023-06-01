@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"08a5738e541a345f2af19e451371d8d4d4bec58c"
+"3da4f48e74a2f214343d6ae98b93fbe1b5b2fe1c"
 [nil nil nil nil (25707 3155 399910 250000) 0 nil]
 ([nil nil ((2529 . 3001) (#("(custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -471,7 +471,7 @@
     (catppuccin-get-color 'pink)
     (catppuccin-get-color 'teal)
     (catppuccin-get-color 'subtext1))))" 0 1946 (fontified nil)) . -904) (t 25707 4389 29878 761000)) nil (25707 4393 756352 174000) 0 nil])
-([nil current ((2893 . 3603) (#("(custom-set-faces
+([nil nil ((2893 . 3603) (#("(custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
@@ -551,4 +551,324 @@
     (catppuccin-get-color 'pink)
     (catppuccin-get-color 'teal)
     (catppuccin-get-color 'subtext1))))" 0 1966 (fontified nil)) . -904) (t 25707 4393 766116 281000)) nil (25707 4394 932927 224000) 0 nil])
+([nil nil ((2899 . 3609) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry \"GOOG\" :family \"FiraCode Nerd Font\"))))
+ '(font-lock-comment-face ((t (:foreground \"#5E5E5E\"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-comment-face))))
+ '(line-number ((t (:foreground \"#5E5E5E\"))))
+ '(line-number-current-line ((t (:foreground \"#D4D4D4\" :weight bold)))))" 0 710 (fontified nil)) . -2899) (2896 . 2898) (2860 . 2863) (2827 . 2830) (2794 . 2797) (2761 . 2764) (2726 . 2729) (2692 . 2695) (2660 . 2663) (2623 . 2626) (#("
+" 0 1 (fontified nil)) . -2872) (2838 . 2839) (2808 . 2809) (2778 . 2779) (2748 . 2749) (2716 . 2717) (2685 . 2686) (2656 . 2657) (2622 . 2623) (2864 . 2865) (2830 . 2831) (#("
+" 0 1 (fontified nil)) . 2830) (2830 . 2831) (#(" " 0 1 (fontified nil)) . -2830) (2801 . 2802) (#("
+" 0 1 (fontified nil)) . 2801) (2801 . 2802) (#(" " 0 1 (fontified nil)) . -2801) (2772 . 2773) (#("
+" 0 1 (fontified nil)) . 2772) (2772 . 2773) (#(" " 0 1 (fontified nil)) . -2772) (2743 . 2744) (#("
+" 0 1 (fontified nil)) . 2743) (2743 . 2744) (#(" " 0 1 (fontified nil)) . -2743) (2712 . 2713) (#("
+" 0 1 (fontified nil)) . 2712) (2712 . 2713) (#(" " 0 1 (fontified nil)) . -2712) (2682 . 2683) (#("
+" 0 1 (fontified nil)) . 2682) (2682 . 2683) (#(" " 0 1 (fontified nil)) . -2682) (2654 . 2655) (#("
+" 0 1 (fontified nil)) . 2654) (2654 . 2655) (#(" " 0 1 (fontified nil)) . -2654) (2621 . 2622) (#(" " 0 1 (fontified nil)) . 2621) (2610 . 2864) (#(" " 0 1 (fontified nil)) . 2610) (2534 . 2611) (#("
+" 0 1 (fontified nil)) . -2534) (2024 . 2535) (#(" " 0 1 (fontified nil)) . 2024) (1880 . 2025) (1850 . 1853) (1824 . 1827) (1797 . 1800) (1771 . 1774) (1745 . 1748) (1717 . 1720) (1691 . 1694) (1665 . 1668) (1639 . 1642) (1613 . 1616) (1587 . 1590) (1561 . 1564) (1535 . 1538) (1509 . 1512) (#("
+" 0 1 (fontified nil)) . -1838) (1809 . 1811) (1786 . 1788) (1762 . 1764) (1739 . 1741) (1716 . 1718) (1691 . 1693) (1668 . 1670) (1645 . 1647) (1622 . 1624) (1599 . 1601) (1576 . 1578) (1553 . 1555) (1530 . 1532) (1507 . 1509) (1810 . 1811) (1782 . 1783) (#("
+" 0 1 (fontified nil)) . 1782) (1782 . 1783) (#(" " 0 1 (fontified nil)) . -1782) (1761 . 1762) (#("
+" 0 1 (fontified nil)) . 1761) (1761 . 1762) (#(" " 0 1 (fontified nil)) . -1761) (1739 . 1740) (#("
+" 0 1 (fontified nil)) . 1739) (1739 . 1740) (#(" " 0 1 (fontified nil)) . -1739) (1718 . 1719) (#("
+" 0 1 (fontified nil)) . 1718) (1718 . 1719) (#(" " 0 1 (fontified nil)) . -1718) (1697 . 1698) (#("
+" 0 1 (fontified nil)) . 1697) (1697 . 1698) (#(" " 0 1 (fontified nil)) . -1697) (1674 . 1675) (#("
+" 0 1 (fontified nil)) . 1674) (1674 . 1675) (#(" " 0 1 (fontified nil)) . -1674) (1653 . 1654) (#("
+" 0 1 (fontified nil)) . 1653) (1653 . 1654) (#(" " 0 1 (fontified nil)) . -1653) (1632 . 1633) (#("
+" 0 1 (fontified nil)) . 1632) (1632 . 1633) (#(" " 0 1 (fontified nil)) . -1632) (1611 . 1612) (#("
+" 0 1 (fontified nil)) . 1611) (1611 . 1612) (#(" " 0 1 (fontified nil)) . -1611) (1590 . 1591) (#("
+" 0 1 (fontified nil)) . 1590) (1590 . 1591) (#(" " 0 1 (fontified nil)) . -1590) (1569 . 1570) (#("
+" 0 1 (fontified nil)) . 1569) (1569 . 1570) (#(" " 0 1 (fontified nil)) . -1569) (1548 . 1549) (#("
+" 0 1 (fontified nil)) . 1548) (1548 . 1549) (#(" " 0 1 (fontified nil)) . -1548) (1527 . 1528) (#("
+" 0 1 (fontified nil)) . 1527) (1527 . 1528) (#(" " 0 1 (fontified nil)) . -1527) (1506 . 1507) (#("
+" 0 1 (fontified nil)) . 1506) (1506 . 1507) (#(" " 0 1 (fontified nil)) . -1506) (1480 . 1810) (#(" " 0 1 (fontified nil)) . 1480) (1408 . 1481) (#("
+" 0 1 (fontified nil)) . -1408) (1327 . 1409) (#(" " 0 1 (fontified nil)) . 1327) (1260 . 1328) (#("
+" 0 1 (fontified nil)) . -1260) (1175 . 1261) (#(" " 0 1 (fontified nil)) . 1175) (904 . 1176) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   [\"#0a0814\" \"#f2241f\" \"#67b11d\" \"#b1951d\" \"#4f97d7\" \"#a31db1\" \"#28def0\" \"#b2b2b2\"])
+ '(custom-enabled-themes '(spacemacs-dark))
+ '(custom-safe-themes
+   '(\"7fd8b914e340283c189980cd1883dbdef67080ad1a3a9cc3df864ca53bdc89cf\" default))
+ '(evil-mode t)
+ '(global-command-log-mode t)
+ '(hl-todo-keyword-faces
+   '((\"TODO\" . \"#dc752f\")
+     (\"NEXT\" . \"#dc752f\")
+     (\"THEM\" . \"#2d9574\")
+     (\"PROG\" . \"#4f97d7\")
+     (\"OKAY\" . \"#4f97d7\")
+     (\"DONT\" . \"#f2241f\")
+     (\"FAIL\" . \"#f2241f\")
+     (\"DONE\" . \"#86dc2f\")
+     (\"NOTE\" . \"#b1951d\")
+     (\"KLUDGE\" . \"#b1951d\")
+     (\"HACK\" . \"#b1951d\")
+     (\"TEMP\" . \"#b1951d\")
+     (\"FIXME\" . \"#dc752f\")
+     (\"XXX+\" . \"#dc752f\")
+     (\"\\\\?\\\\?\\\\?+\" . \"#dc752f\")))
+ '(ispell-dictionary nil)
+ '(ivy-rich-mode t)
+ '(org-fontify-done-headline nil)
+ '(org-fontify-todo-headline nil)
+ '(package-selected-packages
+   '(all-the-icons-ibuffer all-the-icons-dired all-the-icons catwoe-theme exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
+ '(pdf-view-midnight-colors '(\"#b2b2b2\" . \"#292b2e\"))
+ '(rustic-ansi-faces
+   (vector
+    (catppuccin-get-color 'surface1)
+    (catppuccin-get-color 'red)
+    (catppuccin-get-color 'green)
+    (catppuccin-get-color 'yellow)
+    (catppuccin-get-color 'blue)
+    (catppuccin-get-color 'pink)
+    (catppuccin-get-color 'teal)
+    (catppuccin-get-color 'subtext1))))" 0 1988 (fontified nil)) . -904) (t 25715 21951 234602 469000)) nil (25720 42103 354090 157000) 0 nil])
+([nil nil ((2904 . 3614) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry \"GOOG\" :family \"FiraCode Nerd Font\"))))
+ '(font-lock-comment-face ((t (:foreground \"#5E5E5E\"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-comment-face))))
+ '(line-number ((t (:foreground \"#5E5E5E\"))))
+ '(line-number-current-line ((t (:foreground \"#D4D4D4\" :weight bold)))))" 0 710 (fontified nil)) . -2904) (2901 . 2903) (2865 . 2868) (2832 . 2835) (2799 . 2802) (2766 . 2769) (2731 . 2734) (2697 . 2700) (2665 . 2668) (2628 . 2631) (#("
+" 0 1 (fontified nil)) . -2877) (2843 . 2844) (2813 . 2814) (2783 . 2784) (2753 . 2754) (2721 . 2722) (2690 . 2691) (2661 . 2662) (2627 . 2628) (2869 . 2870) (2835 . 2836) (#("
+" 0 1 (fontified nil)) . 2835) (2835 . 2836) (#(" " 0 1 (fontified nil)) . -2835) (2806 . 2807) (#("
+" 0 1 (fontified nil)) . 2806) (2806 . 2807) (#(" " 0 1 (fontified nil)) . -2806) (2777 . 2778) (#("
+" 0 1 (fontified nil)) . 2777) (2777 . 2778) (#(" " 0 1 (fontified nil)) . -2777) (2748 . 2749) (#("
+" 0 1 (fontified nil)) . 2748) (2748 . 2749) (#(" " 0 1 (fontified nil)) . -2748) (2717 . 2718) (#("
+" 0 1 (fontified nil)) . 2717) (2717 . 2718) (#(" " 0 1 (fontified nil)) . -2717) (2687 . 2688) (#("
+" 0 1 (fontified nil)) . 2687) (2687 . 2688) (#(" " 0 1 (fontified nil)) . -2687) (2659 . 2660) (#("
+" 0 1 (fontified nil)) . 2659) (2659 . 2660) (#(" " 0 1 (fontified nil)) . -2659) (2626 . 2627) (#(" " 0 1 (fontified nil)) . 2626) (2615 . 2869) (#(" " 0 1 (fontified nil)) . 2615) (2539 . 2616) (#("
+" 0 1 (fontified nil)) . -2539) (2024 . 2540) (#(" " 0 1 (fontified nil)) . 2024) (1880 . 2025) (1850 . 1853) (1824 . 1827) (1797 . 1800) (1771 . 1774) (1745 . 1748) (1717 . 1720) (1691 . 1694) (1665 . 1668) (1639 . 1642) (1613 . 1616) (1587 . 1590) (1561 . 1564) (1535 . 1538) (1509 . 1512) (#("
+" 0 1 (fontified nil)) . -1838) (1809 . 1811) (1786 . 1788) (1762 . 1764) (1739 . 1741) (1716 . 1718) (1691 . 1693) (1668 . 1670) (1645 . 1647) (1622 . 1624) (1599 . 1601) (1576 . 1578) (1553 . 1555) (1530 . 1532) (1507 . 1509) (1810 . 1811) (1782 . 1783) (#("
+" 0 1 (fontified nil)) . 1782) (1782 . 1783) (#(" " 0 1 (fontified nil)) . -1782) (1761 . 1762) (#("
+" 0 1 (fontified nil)) . 1761) (1761 . 1762) (#(" " 0 1 (fontified nil)) . -1761) (1739 . 1740) (#("
+" 0 1 (fontified nil)) . 1739) (1739 . 1740) (#(" " 0 1 (fontified nil)) . -1739) (1718 . 1719) (#("
+" 0 1 (fontified nil)) . 1718) (1718 . 1719) (#(" " 0 1 (fontified nil)) . -1718) (1697 . 1698) (#("
+" 0 1 (fontified nil)) . 1697) (1697 . 1698) (#(" " 0 1 (fontified nil)) . -1697) (1674 . 1675) (#("
+" 0 1 (fontified nil)) . 1674) (1674 . 1675) (#(" " 0 1 (fontified nil)) . -1674) (1653 . 1654) (#("
+" 0 1 (fontified nil)) . 1653) (1653 . 1654) (#(" " 0 1 (fontified nil)) . -1653) (1632 . 1633) (#("
+" 0 1 (fontified nil)) . 1632) (1632 . 1633) (#(" " 0 1 (fontified nil)) . -1632) (1611 . 1612) (#("
+" 0 1 (fontified nil)) . 1611) (1611 . 1612) (#(" " 0 1 (fontified nil)) . -1611) (1590 . 1591) (#("
+" 0 1 (fontified nil)) . 1590) (1590 . 1591) (#(" " 0 1 (fontified nil)) . -1590) (1569 . 1570) (#("
+" 0 1 (fontified nil)) . 1569) (1569 . 1570) (#(" " 0 1 (fontified nil)) . -1569) (1548 . 1549) (#("
+" 0 1 (fontified nil)) . 1548) (1548 . 1549) (#(" " 0 1 (fontified nil)) . -1548) (1527 . 1528) (#("
+" 0 1 (fontified nil)) . 1527) (1527 . 1528) (#(" " 0 1 (fontified nil)) . -1527) (1506 . 1507) (#("
+" 0 1 (fontified nil)) . 1506) (1506 . 1507) (#(" " 0 1 (fontified nil)) . -1506) (1480 . 1810) (#(" " 0 1 (fontified nil)) . 1480) (1408 . 1481) (#("
+" 0 1 (fontified nil)) . -1408) (1327 . 1409) (#(" " 0 1 (fontified nil)) . 1327) (1260 . 1328) (#("
+" 0 1 (fontified nil)) . -1260) (1175 . 1261) (#(" " 0 1 (fontified nil)) . 1175) (904 . 1176) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   [\"#0a0814\" \"#f2241f\" \"#67b11d\" \"#b1951d\" \"#4f97d7\" \"#a31db1\" \"#28def0\" \"#b2b2b2\"])
+ '(custom-enabled-themes '(spacemacs-dark))
+ '(custom-safe-themes
+   '(\"7fd8b914e340283c189980cd1883dbdef67080ad1a3a9cc3df864ca53bdc89cf\" default))
+ '(evil-mode t)
+ '(global-command-log-mode t)
+ '(hl-todo-keyword-faces
+   '((\"TODO\" . \"#dc752f\")
+     (\"NEXT\" . \"#dc752f\")
+     (\"THEM\" . \"#2d9574\")
+     (\"PROG\" . \"#4f97d7\")
+     (\"OKAY\" . \"#4f97d7\")
+     (\"DONT\" . \"#f2241f\")
+     (\"FAIL\" . \"#f2241f\")
+     (\"DONE\" . \"#86dc2f\")
+     (\"NOTE\" . \"#b1951d\")
+     (\"KLUDGE\" . \"#b1951d\")
+     (\"HACK\" . \"#b1951d\")
+     (\"TEMP\" . \"#b1951d\")
+     (\"FIXME\" . \"#dc752f\")
+     (\"XXX+\" . \"#dc752f\")
+     (\"\\\\?\\\\?\\\\?+\" . \"#dc752f\")))
+ '(ispell-dictionary nil)
+ '(ivy-rich-mode t)
+ '(org-fontify-done-headline nil)
+ '(org-fontify-todo-headline nil)
+ '(package-selected-packages
+   '(corfu all-the-icons-ibuffer all-the-icons-dired all-the-icons catwoe-theme exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
+ '(pdf-view-midnight-colors '(\"#b2b2b2\" . \"#292b2e\"))
+ '(rustic-ansi-faces
+   (vector
+    (catppuccin-get-color 'surface1)
+    (catppuccin-get-color 'red)
+    (catppuccin-get-color 'green)
+    (catppuccin-get-color 'yellow)
+    (catppuccin-get-color 'blue)
+    (catppuccin-get-color 'pink)
+    (catppuccin-get-color 'teal)
+    (catppuccin-get-color 'subtext1))))" 0 1994 (fontified nil)) . -904) (t 25720 42103 359692 323000)) nil (25720 42103 675863 376000) 0 nil])
+([nil nil ((2914 . 3624) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry \"GOOG\" :family \"FiraCode Nerd Font\"))))
+ '(font-lock-comment-face ((t (:foreground \"#5E5E5E\"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-comment-face))))
+ '(line-number ((t (:foreground \"#5E5E5E\"))))
+ '(line-number-current-line ((t (:foreground \"#D4D4D4\" :weight bold)))))" 0 710 (fontified nil)) . -2914) (2911 . 2913) (2875 . 2878) (2842 . 2845) (2809 . 2812) (2776 . 2779) (2741 . 2744) (2707 . 2710) (2675 . 2678) (2638 . 2641) (#("
+" 0 1 (fontified nil)) . -2887) (2853 . 2854) (2823 . 2824) (2793 . 2794) (2763 . 2764) (2731 . 2732) (2700 . 2701) (2671 . 2672) (2637 . 2638) (2879 . 2880) (2845 . 2846) (#("
+" 0 1 (fontified nil)) . 2845) (2845 . 2846) (#(" " 0 1 (fontified nil)) . -2845) (2816 . 2817) (#("
+" 0 1 (fontified nil)) . 2816) (2816 . 2817) (#(" " 0 1 (fontified nil)) . -2816) (2787 . 2788) (#("
+" 0 1 (fontified nil)) . 2787) (2787 . 2788) (#(" " 0 1 (fontified nil)) . -2787) (2758 . 2759) (#("
+" 0 1 (fontified nil)) . 2758) (2758 . 2759) (#(" " 0 1 (fontified nil)) . -2758) (2727 . 2728) (#("
+" 0 1 (fontified nil)) . 2727) (2727 . 2728) (#(" " 0 1 (fontified nil)) . -2727) (2697 . 2698) (#("
+" 0 1 (fontified nil)) . 2697) (2697 . 2698) (#(" " 0 1 (fontified nil)) . -2697) (2669 . 2670) (#("
+" 0 1 (fontified nil)) . 2669) (2669 . 2670) (#(" " 0 1 (fontified nil)) . -2669) (2636 . 2637) (#(" " 0 1 (fontified nil)) . 2636) (2625 . 2879) (#(" " 0 1 (fontified nil)) . 2625) (2549 . 2626) (#("
+" 0 1 (fontified nil)) . -2549) (2024 . 2550) (#(" " 0 1 (fontified nil)) . 2024) (1880 . 2025) (1850 . 1853) (1824 . 1827) (1797 . 1800) (1771 . 1774) (1745 . 1748) (1717 . 1720) (1691 . 1694) (1665 . 1668) (1639 . 1642) (1613 . 1616) (1587 . 1590) (1561 . 1564) (1535 . 1538) (1509 . 1512) (#("
+" 0 1 (fontified nil)) . -1838) (1809 . 1811) (1786 . 1788) (1762 . 1764) (1739 . 1741) (1716 . 1718) (1691 . 1693) (1668 . 1670) (1645 . 1647) (1622 . 1624) (1599 . 1601) (1576 . 1578) (1553 . 1555) (1530 . 1532) (1507 . 1509) (1810 . 1811) (1782 . 1783) (#("
+" 0 1 (fontified nil)) . 1782) (1782 . 1783) (#(" " 0 1 (fontified nil)) . -1782) (1761 . 1762) (#("
+" 0 1 (fontified nil)) . 1761) (1761 . 1762) (#(" " 0 1 (fontified nil)) . -1761) (1739 . 1740) (#("
+" 0 1 (fontified nil)) . 1739) (1739 . 1740) (#(" " 0 1 (fontified nil)) . -1739) (1718 . 1719) (#("
+" 0 1 (fontified nil)) . 1718) (1718 . 1719) (#(" " 0 1 (fontified nil)) . -1718) (1697 . 1698) (#("
+" 0 1 (fontified nil)) . 1697) (1697 . 1698) (#(" " 0 1 (fontified nil)) . -1697) (1674 . 1675) (#("
+" 0 1 (fontified nil)) . 1674) (1674 . 1675) (#(" " 0 1 (fontified nil)) . -1674) (1653 . 1654) (#("
+" 0 1 (fontified nil)) . 1653) (1653 . 1654) (#(" " 0 1 (fontified nil)) . -1653) (1632 . 1633) (#("
+" 0 1 (fontified nil)) . 1632) (1632 . 1633) (#(" " 0 1 (fontified nil)) . -1632) (1611 . 1612) (#("
+" 0 1 (fontified nil)) . 1611) (1611 . 1612) (#(" " 0 1 (fontified nil)) . -1611) (1590 . 1591) (#("
+" 0 1 (fontified nil)) . 1590) (1590 . 1591) (#(" " 0 1 (fontified nil)) . -1590) (1569 . 1570) (#("
+" 0 1 (fontified nil)) . 1569) (1569 . 1570) (#(" " 0 1 (fontified nil)) . -1569) (1548 . 1549) (#("
+" 0 1 (fontified nil)) . 1548) (1548 . 1549) (#(" " 0 1 (fontified nil)) . -1548) (1527 . 1528) (#("
+" 0 1 (fontified nil)) . 1527) (1527 . 1528) (#(" " 0 1 (fontified nil)) . -1527) (1506 . 1507) (#("
+" 0 1 (fontified nil)) . 1506) (1506 . 1507) (#(" " 0 1 (fontified nil)) . -1506) (1480 . 1810) (#(" " 0 1 (fontified nil)) . 1480) (1408 . 1481) (#("
+" 0 1 (fontified nil)) . -1408) (1327 . 1409) (#(" " 0 1 (fontified nil)) . 1327) (1260 . 1328) (#("
+" 0 1 (fontified nil)) . -1260) (1175 . 1261) (#(" " 0 1 (fontified nil)) . 1175) (904 . 1176) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   [\"#0a0814\" \"#f2241f\" \"#67b11d\" \"#b1951d\" \"#4f97d7\" \"#a31db1\" \"#28def0\" \"#b2b2b2\"])
+ '(custom-enabled-themes '(spacemacs-dark))
+ '(custom-safe-themes
+   '(\"7fd8b914e340283c189980cd1883dbdef67080ad1a3a9cc3df864ca53bdc89cf\" default))
+ '(evil-mode t)
+ '(global-command-log-mode t)
+ '(hl-todo-keyword-faces
+   '((\"TODO\" . \"#dc752f\")
+     (\"NEXT\" . \"#dc752f\")
+     (\"THEM\" . \"#2d9574\")
+     (\"PROG\" . \"#4f97d7\")
+     (\"OKAY\" . \"#4f97d7\")
+     (\"DONT\" . \"#f2241f\")
+     (\"FAIL\" . \"#f2241f\")
+     (\"DONE\" . \"#86dc2f\")
+     (\"NOTE\" . \"#b1951d\")
+     (\"KLUDGE\" . \"#b1951d\")
+     (\"HACK\" . \"#b1951d\")
+     (\"TEMP\" . \"#b1951d\")
+     (\"FIXME\" . \"#dc752f\")
+     (\"XXX+\" . \"#dc752f\")
+     (\"\\\\?\\\\?\\\\?+\" . \"#dc752f\")))
+ '(ispell-dictionary nil)
+ '(ivy-rich-mode t)
+ '(org-fontify-done-headline nil)
+ '(org-fontify-todo-headline nil)
+ '(package-selected-packages
+   '(cape corfu all-the-icons-ibuffer all-the-icons-dired all-the-icons catwoe-theme exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
+ '(pdf-view-midnight-colors '(\"#b2b2b2\" . \"#292b2e\"))
+ '(rustic-ansi-faces
+   (vector
+    (catppuccin-get-color 'surface1)
+    (catppuccin-get-color 'red)
+    (catppuccin-get-color 'green)
+    (catppuccin-get-color 'yellow)
+    (catppuccin-get-color 'blue)
+    (catppuccin-get-color 'pink)
+    (catppuccin-get-color 'teal)
+    (catppuccin-get-color 'subtext1))))" 0 1999 (fontified nil)) . -904) (t 25720 42103 683693 686000)) nil (25720 42103 975419 23000) 0 nil])
+([nil current ((2933 . 3643) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :extend nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry \"GOOG\" :family \"FiraCode Nerd Font\"))))
+ '(font-lock-comment-face ((t (:foreground \"#5E5E5E\"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-comment-face))))
+ '(line-number ((t (:foreground \"#5E5E5E\"))))
+ '(line-number-current-line ((t (:foreground \"#D4D4D4\" :weight bold)))))" 0 710 (fontified nil)) . -2933) (2930 . 2932) (2894 . 2897) (2861 . 2864) (2828 . 2831) (2795 . 2798) (2760 . 2763) (2726 . 2729) (2694 . 2697) (2657 . 2660) (#("
+" 0 1 (fontified nil)) . -2906) (2872 . 2873) (2842 . 2843) (2812 . 2813) (2782 . 2783) (2750 . 2751) (2719 . 2720) (2690 . 2691) (2656 . 2657) (2898 . 2899) (2864 . 2865) (#("
+" 0 1 (fontified nil)) . 2864) (2864 . 2865) (#(" " 0 1 (fontified nil)) . -2864) (2835 . 2836) (#("
+" 0 1 (fontified nil)) . 2835) (2835 . 2836) (#(" " 0 1 (fontified nil)) . -2835) (2806 . 2807) (#("
+" 0 1 (fontified nil)) . 2806) (2806 . 2807) (#(" " 0 1 (fontified nil)) . -2806) (2777 . 2778) (#("
+" 0 1 (fontified nil)) . 2777) (2777 . 2778) (#(" " 0 1 (fontified nil)) . -2777) (2746 . 2747) (#("
+" 0 1 (fontified nil)) . 2746) (2746 . 2747) (#(" " 0 1 (fontified nil)) . -2746) (2716 . 2717) (#("
+" 0 1 (fontified nil)) . 2716) (2716 . 2717) (#(" " 0 1 (fontified nil)) . -2716) (2688 . 2689) (#("
+" 0 1 (fontified nil)) . 2688) (2688 . 2689) (#(" " 0 1 (fontified nil)) . -2688) (2655 . 2656) (#(" " 0 1 (fontified nil)) . 2655) (2644 . 2898) (#(" " 0 1 (fontified nil)) . 2644) (2568 . 2645) (#("
+" 0 1 (fontified nil)) . -2568) (2024 . 2569) (#(" " 0 1 (fontified nil)) . 2024) (1880 . 2025) (1850 . 1853) (1824 . 1827) (1797 . 1800) (1771 . 1774) (1745 . 1748) (1717 . 1720) (1691 . 1694) (1665 . 1668) (1639 . 1642) (1613 . 1616) (1587 . 1590) (1561 . 1564) (1535 . 1538) (1509 . 1512) (#("
+" 0 1 (fontified nil)) . -1838) (1809 . 1811) (1786 . 1788) (1762 . 1764) (1739 . 1741) (1716 . 1718) (1691 . 1693) (1668 . 1670) (1645 . 1647) (1622 . 1624) (1599 . 1601) (1576 . 1578) (1553 . 1555) (1530 . 1532) (1507 . 1509) (1810 . 1811) (1782 . 1783) (#("
+" 0 1 (fontified nil)) . 1782) (1782 . 1783) (#(" " 0 1 (fontified nil)) . -1782) (1761 . 1762) (#("
+" 0 1 (fontified nil)) . 1761) (1761 . 1762) (#(" " 0 1 (fontified nil)) . -1761) (1739 . 1740) (#("
+" 0 1 (fontified nil)) . 1739) (1739 . 1740) (#(" " 0 1 (fontified nil)) . -1739) (1718 . 1719) (#("
+" 0 1 (fontified nil)) . 1718) (1718 . 1719) (#(" " 0 1 (fontified nil)) . -1718) (1697 . 1698) (#("
+" 0 1 (fontified nil)) . 1697) (1697 . 1698) (#(" " 0 1 (fontified nil)) . -1697) (1674 . 1675) (#("
+" 0 1 (fontified nil)) . 1674) (1674 . 1675) (#(" " 0 1 (fontified nil)) . -1674) (1653 . 1654) (#("
+" 0 1 (fontified nil)) . 1653) (1653 . 1654) (#(" " 0 1 (fontified nil)) . -1653) (1632 . 1633) (#("
+" 0 1 (fontified nil)) . 1632) (1632 . 1633) (#(" " 0 1 (fontified nil)) . -1632) (1611 . 1612) (#("
+" 0 1 (fontified nil)) . 1611) (1611 . 1612) (#(" " 0 1 (fontified nil)) . -1611) (1590 . 1591) (#("
+" 0 1 (fontified nil)) . 1590) (1590 . 1591) (#(" " 0 1 (fontified nil)) . -1590) (1569 . 1570) (#("
+" 0 1 (fontified nil)) . 1569) (1569 . 1570) (#(" " 0 1 (fontified nil)) . -1569) (1548 . 1549) (#("
+" 0 1 (fontified nil)) . 1548) (1548 . 1549) (#(" " 0 1 (fontified nil)) . -1548) (1527 . 1528) (#("
+" 0 1 (fontified nil)) . 1527) (1527 . 1528) (#(" " 0 1 (fontified nil)) . -1527) (1506 . 1507) (#("
+" 0 1 (fontified nil)) . 1506) (1506 . 1507) (#(" " 0 1 (fontified nil)) . -1506) (1480 . 1810) (#(" " 0 1 (fontified nil)) . 1480) (1408 . 1481) (#("
+" 0 1 (fontified nil)) . -1408) (1327 . 1409) (#(" " 0 1 (fontified nil)) . 1327) (1260 . 1328) (#("
+" 0 1 (fontified nil)) . -1260) (1175 . 1261) (#(" " 0 1 (fontified nil)) . 1175) (904 . 1176) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-names-vector
+   [\"#0a0814\" \"#f2241f\" \"#67b11d\" \"#b1951d\" \"#4f97d7\" \"#a31db1\" \"#28def0\" \"#b2b2b2\"])
+ '(custom-enabled-themes '(spacemacs-dark))
+ '(custom-safe-themes
+   '(\"7fd8b914e340283c189980cd1883dbdef67080ad1a3a9cc3df864ca53bdc89cf\" default))
+ '(evil-mode t)
+ '(global-command-log-mode t)
+ '(hl-todo-keyword-faces
+   '((\"TODO\" . \"#dc752f\")
+     (\"NEXT\" . \"#dc752f\")
+     (\"THEM\" . \"#2d9574\")
+     (\"PROG\" . \"#4f97d7\")
+     (\"OKAY\" . \"#4f97d7\")
+     (\"DONT\" . \"#f2241f\")
+     (\"FAIL\" . \"#f2241f\")
+     (\"DONE\" . \"#86dc2f\")
+     (\"NOTE\" . \"#b1951d\")
+     (\"KLUDGE\" . \"#b1951d\")
+     (\"HACK\" . \"#b1951d\")
+     (\"TEMP\" . \"#b1951d\")
+     (\"FIXME\" . \"#dc752f\")
+     (\"XXX+\" . \"#dc752f\")
+     (\"\\\\?\\\\?\\\\?+\" . \"#dc752f\")))
+ '(ispell-dictionary nil)
+ '(ivy-rich-mode t)
+ '(org-fontify-done-headline nil)
+ '(org-fontify-todo-headline nil)
+ '(package-selected-packages
+   '(yasnippet cape corfu all-the-icons-ibuffer all-the-icons-dired all-the-icons catwoe-theme exwm-systemtray nerd-icons-dired ox-pandoc expand-region try undo-tree auto-complete ox-haunt auto-org-md general catppuccin-theme helpful counsel ivy-rich command-log-mode org-easy-img-insert org-download evil swiper popup-kill-ring dmenu exwm symon diminish spaceline company dashboard rainbow-delimiters switch-window rainbow-mode avy smex ido-vertical-mode org-bullets beacon spacemacs-theme which-key use-package cmake-mode))
+ '(pdf-view-midnight-colors '(\"#b2b2b2\" . \"#292b2e\"))
+ '(rustic-ansi-faces
+   (vector
+    (catppuccin-get-color 'surface1)
+    (catppuccin-get-color 'red)
+    (catppuccin-get-color 'green)
+    (catppuccin-get-color 'yellow)
+    (catppuccin-get-color 'blue)
+    (catppuccin-get-color 'pink)
+    (catppuccin-get-color 'teal)
+    (catppuccin-get-color 'subtext1))))" 0 2009 (fontified nil)) . -904) (t 25720 42103 979694 930000)) nil (25720 42109 22548 40000) 0 nil])
 nil
