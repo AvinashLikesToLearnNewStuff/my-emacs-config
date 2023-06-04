@@ -537,4 +537,13 @@
      (define-key evil-insert-state-map (kbd "C-k") 'evil-previous-line)
      (define-key evil-insert-state-map (kbd "C-l") 'evil-forward-char)
      (define-key evil-insert-state-map (kbd "C-h") 'evil-backward-char)
-     (define-key evil-insert-state-map (kbd "C-u") 'backward-kill-word)))
+     (define-key evil-insert-state-map (kbd "C-u") 'evil-delete-backward-char
+)))
+
+
+
+
+;;Exit insert mode by pressing j and then j quickly
+(setq key-chord-two-keys-delay 0.5)
+(key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+(key-chord-mode 1)

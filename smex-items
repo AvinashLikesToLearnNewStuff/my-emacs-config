@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
+ key-chord-mode
+ try
+ counsel-load-theme
+ eval-region
+ eval-buffer
  kill-emacs
- kill-buffer
- animate-birthday-present
- customize
- toggle-truncate-lines
- insert-kbd-macro
  org-toggle-inline-images
 )
 
@@ -19,17 +19,17 @@
  (switch-to-buffer . 10)
  (find-file . 5)
  (dmenu . 2)
- (list-packages . 8)
+ (list-packages . 10)
  (evil-mode . 10)
- (define-abbrevs . 1)
+ (define-abbrevs . 3)
  (define-global-abbrev . 1)
- (eval-buffer . 13)
+ (eval-buffer . 15)
  (expand-abbrev . 1)
  (edit-abbrevs . 1)
  (org-insert-subheading . 1)
  (org-paste-special . 2)
  (org-paste-subtree . 1)
- (evil-paste-from-register . 2)
+ (evil-paste-from-register . 3)
  (org-attach . 2)
  (abbrev-mode . 4)
  (dabbrev-expand . 2)
@@ -50,7 +50,7 @@
  (evil-normal-state . 3)
  (check-parens . 3)
  (tab-new . 3)
- (counsel-load-theme . 8)
+ (counsel-load-theme . 14)
  (symon-mode . 1)
  (yank . 4)
  (shell . 1)
@@ -60,7 +60,7 @@
  (recover-file . 1)
  (edmacro-mode . 1)
  (eww . 2)
- (kill-buffer . 5)
+ (kill-buffer . 9)
  (org-copy . 1)
  (toggle-truncate-lines . 6)
  (make-face-italic . 1)
@@ -85,7 +85,7 @@
  (ox-haunt-export-to-html . 1)
  (customize-themes . 3)
  (package-install . 1)
- (try . 12)
+ (try . 20)
  (load-theme . 1)
  (customize-create-theme . 1)
  (projectile-run-vterm . 1)
@@ -109,4 +109,11 @@
  (customize . 1)
  (animate-birthday-present . 1)
  (devil . 2)
+ (view-register . 3)
+ (insert-register . 2)
+ (copy-to-register . 1)
+ (eval-region . 2)
+ (kb/toggle-window-transparency . 4)
+ (zen-mode . 2)
+ (key-chord-mode . 2)
 )
