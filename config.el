@@ -528,3 +528,13 @@
 
 (fset 'inserting\ an\ html\ tangle\ block
    (kmacro-lambda-form [?\; ?x ?\( ?s ?r ?c ?\C-x ?a ?e escape ?k ?k ?j ?A ?: backspace ?h backspace ?h ?t ?m ?l ?  ?: ?t ?a ?n ?g ?l ?e ?  ?d ?o ?c ?u ?m ?e ?n ?t C-backspace ?c ?h ?i ?l ?d ?N ?o ?d ?e ?s ?\( ?\) ?. ?h ?t ?m ?l escape ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?i ?l ?i ?s ?t ?i ?n ?g ?_ escape ?o escape ?i] 0 "%d"))
+
+;; Load after Evil mode is finished loading
+(eval-after-load 'evil
+  '(progn
+     ;; Define keybindings for moving cursor in Evil Insert mode
+     (define-key evil-insert-state-map (kbd "C-j") 'evil-next-line)
+     (define-key evil-insert-state-map (kbd "C-k") 'evil-previous-line)
+     (define-key evil-insert-state-map (kbd "C-l") 'evil-forward-char)
+     (define-key evil-insert-state-map (kbd "C-h") 'evil-backward-char)
+     (define-key evil-insert-state-map (kbd "C-u") 'backward-kill-word)))

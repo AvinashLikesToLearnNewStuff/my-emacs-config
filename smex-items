@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
+ kill-emacs
  kill-buffer
  animate-birthday-present
  customize
  toggle-truncate-lines
  insert-kbd-macro
- kill-emacs
  org-toggle-inline-images
 )
 
@@ -46,7 +46,7 @@
  (java-mode . 1)
  (org-export-dispatch . 10)
  (ivy-rich-mode . 1)
- (kill-emacs . 16)
+ (kill-emacs . 17)
  (evil-normal-state . 3)
  (check-parens . 3)
  (tab-new . 3)

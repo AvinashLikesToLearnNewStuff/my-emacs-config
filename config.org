@@ -354,9 +354,8 @@
 * evil (from system crafters)
 #+BEGIN_SRC emacs-lisp
 
-
-
 #+END_SRC
+
 * initialise packages
 #+BEGIN_SRC emacs-lisp
   ;; Initialize package sources
@@ -715,5 +714,21 @@ The link for the macro to insert an html block
 
 (fset 'inserting\ an\ html\ tangle\ block
    (kmacro-lambda-form [?\; ?x ?\( ?s ?r ?c ?\C-x ?a ?e escape ?k ?k ?j ?A ?: backspace ?h backspace ?h ?t ?m ?l ?  ?: ?t ?a ?n ?g ?l ?e ?  ?d ?o ?c ?u ?m ?e ?n ?t C-backspace ?c ?h ?i ?l ?d ?N ?o ?d ?e ?s ?\( ?\) ?. ?h ?t ?m ?l escape ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?i ?l ?i ?s ?t ?i ?n ?g ?_ escape ?o escape ?i] 0 "%d"))
+
+#+END_SRC
+
+* evil mode keybindings
+  make it so that u can move left right forward back in insert mode by control +h j k l etc 
+ 
+#+BEGIN_SRC  emacs-lisp
+;; Load after Evil mode is finished loading
+(eval-after-load 'evil
+  '(progn
+     ;; Define keybindings for moving cursor in Evil Insert mode
+     (define-key evil-insert-state-map (kbd "C-j") 'evil-next-line)
+     (define-key evil-insert-state-map (kbd "C-k") 'evil-previous-line)
+     (define-key evil-insert-state-map (kbd "C-l") 'evil-forward-char)
+     (define-key evil-insert-state-map (kbd "C-h") 'evil-backward-char)
+     (define-key evil-insert-state-map (kbd "C-u") 'backward-kill-word)))
 
 #+END_SRC

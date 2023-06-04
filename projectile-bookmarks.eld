@@ -1,1 +1,1 @@
-("~/.emacs.d/" "/tmp/vterm-XUnTBP/vterm-20230417.424/")
+("~/.emacs.d/")
