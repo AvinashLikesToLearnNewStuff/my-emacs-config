@@ -1,7 +1,7 @@
 (defvar my-term-shell "/bin/bash")
-(defadvice ansi-term (before force-bash)
+(defadvice vterm (before force-bash)
   (interactive (list my-term-shell)))
-(ad-activate 'ansi-term)
+(ad-activate 'vterm)
 
 (setq org-src-window-setup 'current-window) 
 (add-to-list 'org-structure-template-alist
@@ -463,6 +463,11 @@
 (use-package ox-pandoc
   :ensure t)
 
+(use-package org-auto-tangle
+ ;; :load-path "site-lisp/org-auto-tangle/"    ;; this line is necessary only if you cloned the repo in your site-lisp directory 
+  :defer t
+  :hook (org-mode . org-auto-tangle-mode))
+
 (use-package symon
   :ensure t
   :config
@@ -509,3 +514,17 @@
 (use-package all-the-icons-ibuffer
   :ensure t
   :init (all-the-icons-ibuffer-mode 1))
+
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(unless package-archive-contents
+  (package-refresh-contents))
+(unless (package-installed-p 'devil)
+  (package-install 'devil))
+(require 'devil)
+(global-devil-mode)
+(global-set-key (kbd "C-;") 'global-devil-mode)
+(devil-set-key (kbd ";"))
+
+(fset 'inserting\ an\ html\ tangle\ block
+   (kmacro-lambda-form [?\; ?x ?\( ?s ?r ?c ?\C-x ?a ?e escape ?k ?k ?j ?A ?: backspace ?h backspace ?h ?t ?m ?l ?  ?: ?t ?a ?n ?g ?l ?e ?  ?d ?o ?c ?u ?m ?e ?n ?t C-backspace ?c ?h ?i ?l ?d ?N ?o ?d ?e ?s ?\( ?\) ?. ?h ?t ?m ?l escape ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?i ?l ?i ?s ?t ?i ?n ?g ?_ escape ?o escape ?i] 0 "%d"))

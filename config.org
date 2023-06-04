@@ -1,12 +1,14 @@
+
 * exwm
 
 * Terminal
 ** setting default shell to bash
+
 #+BEGIN_SRC emacs-lisp
 (defvar my-term-shell "/bin/bash")
-(defadvice ansi-term (before force-bash)
+(defadvice vterm (before force-bash)
   (interactive (list my-term-shell)))
-(ad-activate 'ansi-term)  
+(ad-activate 'vterm)
 #+END_SRC
 
 * org
@@ -630,7 +632,13 @@
 #+END_SRC
 
 
-
+** org auto tangle
+#+BEGIN_SRC emacs-lisp
+(use-package org-auto-tangle
+ ;; :load-path "site-lisp/org-auto-tangle/"    ;; this line is necessary only if you cloned the repo in your site-lisp directory 
+  :defer t
+  :hook (org-mode . org-auto-tangle-mode))
+#+END_SRC
 
 * symon
 #+BEGIN_SRC emacs-lisp
@@ -683,4 +691,29 @@
 (use-package all-the-icons-ibuffer
   :ensure t
   :init (all-the-icons-ibuffer-mode 1))
+#+END_SRC
+* devil mode
+#+BEGIN_SRC emacs-lisp
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(unless package-archive-contents
+  (package-refresh-contents))
+(unless (package-installed-p 'devil)
+  (package-install 'devil))
+(require 'devil)
+(global-devil-mode)
+(global-set-key (kbd "C-;") 'global-devil-mode)
+(devil-set-key (kbd ";"))
+#+END_SRC
+
+
+* macros
+
+The link for the macro to insert an html block
+
+#+BEGIN_SRC emacs-lisp
+
+(fset 'inserting\ an\ html\ tangle\ block
+   (kmacro-lambda-form [?\; ?x ?\( ?s ?r ?c ?\C-x ?a ?e escape ?k ?k ?j ?A ?: backspace ?h backspace ?h ?t ?m ?l ?  ?: ?t ?a ?n ?g ?l ?e ?  ?d ?o ?c ?u ?m ?e ?n ?t C-backspace ?c ?h ?i ?l ?d ?N ?o ?d ?e ?s ?\( ?\) ?. ?h ?t ?m ?l escape ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?h ?i ?l ?i ?s ?t ?i ?n ?g ?_ escape ?o escape ?i] 0 "%d"))
+
 #+END_SRC

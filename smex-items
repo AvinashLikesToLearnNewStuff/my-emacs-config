@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ kill-buffer
+ animate-birthday-present
+ customize
+ toggle-truncate-lines
+ insert-kbd-macro
  kill-emacs
- global-corfu-mode
- corfu-mode
- try
- package-refresh-contents
- find-file
- global-subword-mode
+ org-toggle-inline-images
 )
 
 ;; ----- smex-data -----
@@ -16,14 +16,14 @@
  (exwm-floating-toggle-floating . 1)
  (exwm-exit . 2)
  (vc-log-outgoing . 1)
- (switch-to-buffer . 9)
+ (switch-to-buffer . 10)
  (find-file . 5)
  (dmenu . 2)
  (list-packages . 8)
  (evil-mode . 10)
  (define-abbrevs . 1)
  (define-global-abbrev . 1)
- (eval-buffer . 7)
+ (eval-buffer . 13)
  (expand-abbrev . 1)
  (edit-abbrevs . 1)
  (org-insert-subheading . 1)
@@ -35,9 +35,9 @@
  (dabbrev-expand . 2)
  (normal-mode . 4)
  (eval-last-sexp . 1)
- (eval-expression . 3)
+ (eval-expression . 4)
  (ispell-buffer . 1)
- (flyspell-mode . 1)
+ (flyspell-mode . 2)
  (picture-mode . 3)
  (org-mode . 2)
  (artist-mode . 1)
@@ -46,11 +46,11 @@
  (java-mode . 1)
  (org-export-dispatch . 10)
  (ivy-rich-mode . 1)
- (kill-emacs . 13)
+ (kill-emacs . 16)
  (evil-normal-state . 3)
  (check-parens . 3)
  (tab-new . 3)
- (counsel-load-theme . 6)
+ (counsel-load-theme . 8)
  (symon-mode . 1)
  (yank . 4)
  (shell . 1)
@@ -60,9 +60,9 @@
  (recover-file . 1)
  (edmacro-mode . 1)
  (eww . 2)
- (kill-buffer . 1)
+ (kill-buffer . 5)
  (org-copy . 1)
- (toggle-truncate-lines . 4)
+ (toggle-truncate-lines . 6)
  (make-face-italic . 1)
  (table-insert-column . 1)
  (org-table-convert-region . 1)
@@ -83,9 +83,9 @@
  (org-insert-link . 1)
  (ox-haunt-export-as-html . 1)
  (ox-haunt-export-to-html . 1)
- (customize-themes . 2)
+ (customize-themes . 3)
  (package-install . 1)
- (try . 10)
+ (try . 12)
  (load-theme . 1)
  (customize-create-theme . 1)
  (projectile-run-vterm . 1)
@@ -96,4 +96,17 @@
  (package-refresh-contents . 1)
  (corfu-mode . 1)
  (global-corfu-mode . 2)
+ (vterm . 2)
+ (pp-eval-expression . 1)
+ (open-application-in-workspace . 2)
+ (text-mode . 1)
+ (global-devil-mode . 1)
+ (org-auto-tangle-mode . 1)
+ (find-alternate-file . 1)
+ (name-last-kbd-macro . 1)
+ (insert-kbd-macro . 1)
+ (evil-execute-macro . 1)
+ (customize . 1)
+ (animate-birthday-present . 1)
+ (devil . 2)
 )
