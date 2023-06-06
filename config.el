@@ -351,6 +351,23 @@
   (general-create-definer dw/ctrl-c-keys
     :prefix "C-c"))
 
+(dw/leader-key-def
+  "f" 'find-file
+  "b" 'switch-to-buffer
+  "s" 'save-buffer)
+
+(dw/ctrl-c-keys
+  "a" 'org-agenda
+  "c" 'org-capture)
+
+ (general-create-definer dw/leader-key-def
+  :keymaps '(normal insert visual emacs)
+  :prefix "SPC"
+  :global-prefix "C-SPC")
+
+(dw/leader-key-def
+  "m" 'counsel-M-x)
+
 (defun dw/evil-hook ()
   (dolist (mode '(custom-mode
                   eshell-mode
@@ -547,3 +564,5 @@
 (setq key-chord-two-keys-delay 0.5)
 (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
 (key-chord-mode 1)
+
+(setq-default buffer-file-coding-system 'utf-8-unix)
