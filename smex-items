@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
+ eval-region
+ kill-emacs
  key-chord-mode
  try
  counsel-load-theme
- eval-region
  eval-buffer
- kill-emacs
  org-toggle-inline-images
 )
 
@@ -46,7 +46,7 @@
  (java-mode . 1)
  (org-export-dispatch . 10)
  (ivy-rich-mode . 1)
- (kill-emacs . 17)
+ (kill-emacs . 18)
  (evil-normal-state . 3)
  (check-parens . 3)
  (tab-new . 3)
@@ -112,7 +112,7 @@
  (view-register . 3)
  (insert-register . 2)
  (copy-to-register . 1)
- (eval-region . 2)
+ (eval-region . 4)
  (kb/toggle-window-transparency . 4)
  (zen-mode . 2)
  (key-chord-mode . 2)
