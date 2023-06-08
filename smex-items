@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- global-devil-mode
- org-babel-tangle
- org-auto-tangle-mode
+ god-local-mode
  try
+ god-mode
+ global-devil-mode
+ tab-new
+ package-install
  package-refresh-contents
- kill-emacs
- org-toggle-inline-images
 )
 
 ;; ----- smex-data -----
@@ -49,7 +49,7 @@
  (kill-emacs . 18)
  (evil-normal-state . 3)
  (check-parens . 3)
- (tab-new . 3)
+ (tab-new . 5)
  (counsel-load-theme . 14)
  (symon-mode . 1)
  (yank . 4)
@@ -84,8 +84,8 @@
  (ox-haunt-export-as-html . 1)
  (ox-haunt-export-to-html . 1)
  (customize-themes . 3)
- (package-install . 1)
- (try . 22)
+ (package-install . 5)
+ (try . 24)
  (load-theme . 1)
  (customize-create-theme . 1)
  (projectile-run-vterm . 1)
@@ -93,14 +93,14 @@
  (dashboard-mode . 1)
  (dashboard-open . 1)
  (global-subword-mode . 4)
- (package-refresh-contents . 2)
+ (package-refresh-contents . 3)
  (corfu-mode . 1)
  (global-corfu-mode . 2)
  (vterm . 2)
  (pp-eval-expression . 1)
  (open-application-in-workspace . 2)
  (text-mode . 1)
- (global-devil-mode . 3)
+ (global-devil-mode . 4)
  (org-auto-tangle-mode . 3)
  (find-alternate-file . 1)
  (name-last-kbd-macro . 1)
@@ -117,7 +117,10 @@
  (zen-mode . 2)
  (key-chord-mode . 2)
  (magit . 1)
- (org-babel-tangle . 1)
+ (org-babel-tangle . 2)
  (general-simulate-C-SPC . 2)
  (general-simulate-M-SPC . 2)
+ (evil-save . 1)
+ (god-mode . 4)
+ (god-local-mode . 1)
 )

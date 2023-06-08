@@ -12,17 +12,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/avinash/repos/JavaScript30/01 - JavaScript Drum Kit/"
  "/home/avinash/Documents/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- 
+ "index-START.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/avinash/Documents/" (25726 51368 923787 738000) "JS-Notes.org_archive" "test.html" "JavaScript/" "JS-Notes.org" "test.org" "JS-Notes.org~" "DomEnlightenment/" ".test.org.~undo-tree~" "../" "test.org~" "JS-Notes.docx" "Excercise.html" ".JS-Notes.org_archive.~undo-tree~" ".JS-Notes.docx.~undo-tree~" "JS-Notes.html" ".JS-Notes.org.~undo-tree~" "./")
+ ("/home/avinash/repos/JavaScript30/01 - JavaScript Drum Kit/" (25728 10111 4742 541000) "../" "sounds/" "index-FINISHED.html" "style.css" "lazygit" "index-START.html" "background.jpg" "index-START.html~" "lazygit.tar.gz" ".index-START.html.~undo-tree~" "./")
+
+ ("/home/avinash/Documents/" (25727 8024 362958 415000) "JS-Notes.org_archive" "test.html" "JavaScript/" "JS-Notes.org" "test.org" "JS-Notes.org~" "DomEnlightenment/" ".test.org.~undo-tree~" "../" "test.org~" "event-listener-3-methods.html" "JS-Notes.docx" "Excercise.html" ".JS-Notes.org_archive.~undo-tree~" ".JS-Notes.docx.~undo-tree~" "JS-Notes.html" "#JS-Notes.org#" ".JS-Notes.org.~undo-tree~" "./")
 
  ("/home/avinash/Documents/DomEnlightenment/" (25725 19601 210611 602000) "insertBefore().html" "empty.html" "has_feature_method.html" "log_element_node.html" "traversing_nodes_in_dom.html" "removeChild().html" "..DomEnlightenment.org.~undo-tree~.~undo-tree~" "reference_to_any_element_focused_in_the_document.html" ".DomEnlightenment.org.~undo-tree~" "inserting_adjacently.html" "convert_NodeList_to_array.html" "general_info.html" "../" "hierarchy_of_nodes.html" "document_node_overview.html" "getting_tag_names.html" "inheritance_of_node_properties.html" "taversing_elements.html" "getting_a_node_value.html" "creatingelements.html" "document_child_nodes.html" "#DomEnlightenment.org#" "inherited_properties_in_elements.html" "listing_all_document_properties.html" "determining_a_node_type.html" "creating_a_node.html" ".#DomEnlightenment.org" "listing_childNodes().html" "contains().html" "creating_elements_using_js_strings.html" "appendChild().html" "replaceChild.html" "names_and_types_of_some_imp_node_types.html" "extracting_Dom_text_as_javascript_strings.html" "log_all_node_values.html" "cloneNode().html" "DomEnlightenment.org~" "isEqualNode().html" "ownerDocument.html" "./" "DomEnlightenment.org")
 

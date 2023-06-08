@@ -506,7 +506,7 @@
 (dw/ctrl-c-keys
   "a" 'org-agenda
   "c" 'org-capture)
-
+ 
  (general-create-definer dw/leader-key-def
   :keymaps '(normal insert visual emacs)
   :prefix "SPC"
@@ -516,8 +516,16 @@
   "m" 'counsel-M-x)
 
 
+(general-create-definer dw/leader-key-def
+  :keymaps '(normal insert visual emacs)
+  :prefix "SPC"
+  :global-prefix "C-SPC")
+
+(dw/leader-key-def
+  "d" 'god-local-mode)
+
 #+END_SRC
- 
+
 #+BEGIN_SRC emacs-lisp
 
 (defun dw/evil-hook ()

@@ -359,7 +359,7 @@
 (dw/ctrl-c-keys
   "a" 'org-agenda
   "c" 'org-capture)
-
+ 
  (general-create-definer dw/leader-key-def
   :keymaps '(normal insert visual emacs)
   :prefix "SPC"
@@ -367,6 +367,15 @@
 
 (dw/leader-key-def
   "m" 'counsel-M-x)
+
+
+(general-create-definer dw/leader-key-def
+  :keymaps '(normal insert visual emacs)
+  :prefix "SPC"
+  :global-prefix "C-SPC")
+
+(dw/leader-key-def
+  "d" 'god-local-mode)
 
 (defun dw/evil-hook ()
   (dolist (mode '(custom-mode
