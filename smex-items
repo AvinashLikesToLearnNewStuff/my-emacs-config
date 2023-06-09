@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- god-local-mode
  try
+ god-local-mode
  god-mode
  global-devil-mode
  tab-new
@@ -85,7 +85,7 @@
  (ox-haunt-export-to-html . 1)
  (customize-themes . 3)
  (package-install . 5)
- (try . 24)
+ (try . 25)
  (load-theme . 1)
  (customize-create-theme . 1)
  (projectile-run-vterm . 1)

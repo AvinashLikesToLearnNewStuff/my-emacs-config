@@ -377,6 +377,17 @@
 (dw/leader-key-def
   "d" 'god-local-mode)
 
+  ;;toggle god mode using c-spc c-d
+
+(defun my-god-mode-toggle ()
+  (interactive)
+  (if god-local-mode
+      (god-local-mode -1)
+    (god-local-mode 1)))
+
+(with-eval-after-load 'god-mode
+(define-key evil-insert-state-map (kbd "C-SPC C-d") 'my-god-mode-toggle))
+
 (defun dw/evil-hook ()
   (dolist (mode '(custom-mode
                   eshell-mode
